@@ -11,6 +11,6 @@ public class Greeter {
 
     public static void sayHi(final String name) {
         final String greeting = ResourceBundle.getBundle(Greeter.class.getName()).getString("greeting");
-        System.out.println("v1: " + formatter.format(greeting, name));
+        System.out.println("v1 p1: " + formatter.format(greeting, name));
     }
 }
